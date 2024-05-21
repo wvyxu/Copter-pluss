@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-account.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <header>
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="./img/лого 1.svg" alt="Логотип Квадрокоптер+"></a>
+				<a href="index.html"><h1>Квадрокоптер+</h1></a>
+			</div>
+			
+			<div class="search">
+				<input type="text" name="search_inp" id="search_inp">
+				<button type="button"><img class="magnifier" src="img/лупа.svg" alt="лупа" srcset=""></button>
+			</div>
+			<div class="header-contacts">
+				<div class="contact">
+					<img src="./img/вход в личный каб 2.svg" alt="почта" srcset="">
+					<p>quadrocopterplus@gmail.com</p>
+				</div>
+				<div class="contact">
+					<img src="./img/image 23.svg" alt="телефон" srcset="">
+					<p>+7 (800) 111-11-11</p>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="nav">
+				<div class="nav-cont">
+					<div class="nav-center-cont">
+						<p class="nav-elem"><a href="history.html">История бронирования</a></p>
+						<p class="nav-elem"><a href="product card.html">Бронирование</a></p>
+						<p class="nav-elem"><a href="rental points.html">Точки проката</a></p>
+						<div class="account">
+							<p class="nav-elem"><a href="account.html">Личный кабинет </a></p>
+							<img src="./img/вход в личный каб 1.svg" alt="иконка юзер" srcset="">
+						</div>
+					</div>
+				</div>
+				<div class="nav-side">
+					<button type="button"><img src="./img/избранные иконка.svg" alt="иконка избранные" srcset=""></button>
+					<button type="button"><img src="./img/корзина иконка.svg" alt="иконка корзины" srcset=""></button>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <div class="main-cont">
+        <div class="whatpage">
+            <p><a href="index.html">Главная</a></p>
+            <p> > </p>
+            <p><a href="registration.html">Личный кабинет</a></p>
+        </div>
+        <h1 class="sect-name">Личный кабинет</h1>
+		<div class="grid-containers">
+			<div class="container container-main-info">
+				<div class="account-info">
+					<div class="account-appearance">
+						<img class="foto-profile" src="img/фото профиля.png" alt="Фото профиля" srcset="">
+						<h1>Имя Фамилия</h1>
+						<div class="username">
+							<p>@username</p>
+							<button type="button" class="copy-username">
+								<img src="img/значок копирования.svg" alt="Копировать" srcset="">
+							</button>
+						</div>
+						<p>Баллы: 16</p>
+					</div>
+					<div class="main-info">
+						<h1 class="sect-name">Общая информация</h1>
+						<div class="grid-main-info">
+							<p>Имя</p>
+							<input type="text" name="name" id="name" placeholder="Имя" disabled>
+							<p>Фамилия</p>
+							<input type="text" name="last_name" id="last_name" placeholder="Фамилия" disabled>
+							<p>Отчество</p>
+							<input type="text" name="patronymic" id="patronymic" placeholder="Отчество" disabled>
+							<p>Дата рождения</p>
+							<input type="text" name="dateBirth" id="dateBirth" placeholder="01.01.2010" disabled>
+							<p>Город</p>
+							<input type="text" name="city" id="city" placeholder="Абакан" disabled>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container container-booking">
+				<div class="book-elem">
+					<div class="copter-img-cont">
+						<img src="img/квадрокоптер 1.png" alt="фото коптера" srcset="">
+
+					</div>
+					<h1 class="copter-name">DJI Phantom 4</h1>
+					<p class="period">12.12.2023  —  по 13.12.2023</p>
+					<p class="price">5 655 ₽</p>
+				</div>
+				<hr class="hr-booking">
+				<div class="book-elem">
+					<div class="copter-img-cont">
+						<img src="img/квадрокоптер 2.png" alt="фото коптера" srcset="">
+
+					</div>
+					<h1 class="copter-name">DJI Inspire 1 Version 2.0</h1>
+					<p class="period">12.12.2023  —  по 13.12.2023</p>
+					<p class="price">21 655 ₽</p>
+				</div>
+			</div>
+			<div class="container container-contacts">
+				<h1 class="name-panel">Контактные данные</h1>
+				<div class="grid-contacts">
+					<p>Телефон</p>
+					<input type="text" name="phone" id="phone" placeholder="+7 (923) 520-10-02" disabled>
+					<p>E-mail</p>
+					<input type="text" name="email" id="email" placeholder="copterplus@gmail.com" disabled>
+					<p>Адрес</p>
+					<input type="text" name="adress" id="adress" placeholder="Адрес" disabled>
+				</div>
+			</div>
+			<div class="container container-actions">
+				<h1 class="name-panel">Действия</h1>
+				<div class="actions">
+					<p class="act"><a href="#">Избранные</a></p>
+					<hr class="hr-actions">
+					<p class="act"><a href="#">История бронирования</a></p>
+					<hr class="hr-actions">
+					<p class="act"><a href="#">Мои банковские карты</a></p>
+					<hr class="hr-actions">
+					<p class="act quit"><a href="#">Выйти</a></p>
+				</div>
+			</div>
+		</div>
+        
+    </div>
+	<footer>
+        <div class="logo footer-logo">
+			<a href="index.html"><img src="./img/лого 1.svg" alt="Логотип Квадрокоптер+"></a>
+			<a href="index.html"><h1>Квадрокоптер+</h1></a>
+        </div>
+        <div class="main-cont">
+            <div class="footer-elems">
+                <div class="nav-footer">
+                    <h2>Навигация</h2>
+                    <p class="nav-foot-elem"><a href="">Личный кабинет</a></p>
+                    <p class="nav-foot-elem"><a href="">Банковские карты</a></p>
+                    <p class="nav-foot-elem"><a href="">Авторизация</a></p>
+                    <p class="nav-foot-elem"><a href="">Бронирование</a></p>
+                    <p class="nav-foot-elem"><a href="">История бронирования</a></p>
+                    <p class="nav-foot-elem"><a href="">Точки проката</a></p>
+                </div>
+                <div class="nav-footer">
+                    <h2>Аренда</h2>
+                    <p class="nav-foot-elem"><a href="">Квадрокоптеры</a></p>
+                    <p class="nav-foot-elem"><a href="">Аксессуары для коптеров</a></p>
+                    <p class="nav-foot-elem"><a href="">Карты памяти для коптеров</a></p>
+                    <p class="nav-foot-elem"><a href="">Сумки для коптеров</a></p>
+                </div>
+                <div class="nav-footer">
+                    <h2>Контакты</h2>
+                    <p class="nav-foot-elem footer-contacts"><a href="tel:+78001111111">+7 (800) 111-11-11</a></p>
+                    <p class="nav-foot-elem footer-contacts">С 10:00 до 22:00<p>
+                    <div class="soc-media">
+                        <a href="#"><img src="img/иконки соцсетей/вк.svg" alt="" srcset=""></a>
+                        <a href="#"><img src="img/иконки соцсетей/ватсап.svg" alt="" srcset=""></a>
+                        <a href="#"><img src="img/иконки соцсетей/фейсбук.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© «Квадрокоптер+». Все права защищены. 2024 г.</p>
+                <div class="docs">
+                    <p><a href="#">Политика конфиденциальности</a></p>
+                    <p><a href="#">Пользовательское соглашение</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

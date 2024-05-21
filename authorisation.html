@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-author.css">
+    <title>Форма авторизации</title>
+</head>
+<body>
+    <header>
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="./img/лого 1.svg" alt="Логотип Квадрокоптер+"></a>
+				<a href="index.html"><h1>Квадрокоптер+</h1></a>
+			</div>
+			
+			<div class="search">
+				<input type="text" name="search_inp" id="search_inp">
+				<button type="button"><img class="magnifier" src="img/лупа.svg" alt="лупа" srcset=""></button>
+			</div>
+			<div class="header-contacts">
+				<div class="contact">
+					<img src="./img/вход в личный каб 2.svg" alt="" srcset="">
+					<p>quadrocopterplus@gmail.com</p>
+				</div>
+				<div class="contact">
+					<img src="./img/image 23.svg" alt="" srcset="">
+					<p>+7 (800) 111-11-11</p>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="nav">
+				<div class="nav-cont">
+					<div class="nav-center-cont">
+						<p class="nav-elem"><a href="history.html">История бронирования</a></p>
+						<p class="nav-elem"><a href="product card.html">Бронирование</a></p>
+						<p class="nav-elem"><a href="rental points.html">Точки проката</a></p>
+						<div class="account">
+							<p class="nav-elem"><a href="#">Личный кабинет </a></p>
+							<img src="./img/вход в личный каб 1.svg" alt="" srcset="">
+						</div>
+					</div>
+				</div>
+				<div class="nav-side">
+					<button type="button"><img src="./img/избранные иконка.svg" alt="" srcset=""></button>
+					<button type="button"><img src="./img/корзина иконка.svg" alt="" srcset=""></button>
+				</div>
+			</div>
+			
+		</nav>
+	</header>
+        
+        
+	<div class="main-cont">
+		<div class="whatpage">
+			<p><a href="index.html">Главная</a></p>
+			<p> > </p>
+			<p><a href="registration.html">Авторизация</a></p>
+		</div>
+		<div class="cont-form">
+			<form action="">
+				<h1 class="sect-name">Авторизация</h1>
+				<ul class="inputs">
+					<li>
+						<label for="phone">Телефон</label>
+						<input type="text" name="phone" placeholder="+7 900 000-00-00" id="phone">
+						<p id="phoneError"></p><br>
+					</li>
+					<li>
+						<label for="password">Пароль</label>
+						<input type="password" name="password" placeholder="" id="password">
+						<p id="passwordError"></p><br>
+					</li>
+					<li class="checkbox" style="flex-direction: row-reverse;">
+						<a href="#">Забыли пароль?</a>
+    					<label for="remember">Запомнить меня</label>
+						<input type="checkbox" id="remember" name="remember"/>
+					</li>
+					<li>
+						<button type="button" onclick="validate()">Вход</button>
+					</li>
+				</ul>
+			</form>
+			<p>Нет аккаунта? <a href="authorisation.html">Зарегистрироваться</a></p>
+		</div>
+	</div>
+	<footer>
+		<div class="logo footer-logo">
+			<a href="index.html"><img src="./img/лого 1.svg" alt="Логотип Квадрокоптер+"></a>
+			<a href="index.html"><h1>Квадрокоптер+</h1></a>
+		</div>
+		<div class="main-cont">
+			<div class="footer-elems">
+				<div class="nav-footer">
+					<h2>Навигация</h2>
+					<p class="nav-foot-elem"><a href="">Личный кабинет</a></p>
+					<p class="nav-foot-elem"><a href="">Банковские карты</a></p>
+					<p class="nav-foot-elem"><a href="">Авторизация</a></p>
+					<p class="nav-foot-elem"><a href="">Бронирование</a></p>
+					<p class="nav-foot-elem"><a href="">История бронирования</a></p>
+					<p class="nav-foot-elem"><a href="">Точки проката</a></p>
+				</div>
+				<div class="nav-footer">
+					<h2>Аренда</h2>
+					<p class="nav-foot-elem"><a href="">Квадрокоптеры</a></p>
+					<p class="nav-foot-elem"><a href="">Аксессуары для коптеров</a></p>
+					<p class="nav-foot-elem"><a href="">Карты памяти для коптеров</a></p>
+					<p class="nav-foot-elem"><a href="">Сумки для коптеров</a></p>
+				</div>
+				<div class="nav-footer">
+					<h2>Контакты</h2>
+					<p class="nav-foot-elem footer-contacts"><a href="tel:+78001111111">+7 (800) 111-11-11</a></p>
+					<p class="nav-foot-elem footer-contacts">С 10:00 до 22:00<p>
+					<div class="soc-media">
+						<a href="#"><img src="img/иконки соцсетей/вк.svg" alt="" srcset=""></a>
+						<a href="#"><img src="img/иконки соцсетей/ватсап.svg" alt="" srcset=""></a>
+						<a href="#"><img src="img/иконки соцсетей/фейсбук.svg" alt="" srcset=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>© «Квадрокоптер+». Все права защищены. 2024 г.</p>
+				<div class="docs">
+					<p><a href="#">Политика конфиденциальности</a></p>
+					<p><a href="#">Пользовательское соглашение</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script src="validation-author.js"></script>
+</body>
+</html>
